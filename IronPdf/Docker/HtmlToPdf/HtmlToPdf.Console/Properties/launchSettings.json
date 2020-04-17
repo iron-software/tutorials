@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "HtmlToPdf.Console": {
+      "commandName": "Project",
+      "commandLineArgs": "https://google.com google.com.pdf"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

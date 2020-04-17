@@ -1,0 +1,46 @@
+# escape=`
+
+FROM mcr.microsoft.com/windows/servercore:ltsc2019 as dotnet-sdk
+WORKDIR /downloads
+ADD https://download.visualstudio.microsoft.com/download/pr/`
+adeab8b1-1c44-41b2-b12a-156442f307e9/65ebf805366410c63edeb06e53959383`
+/dotnet-sdk-3.1.201-win-x64.zip dotnet-sdk.zip
+RUN powershell Expand-Archive`
+ -Path dotnet-sdk.zip`
+ -DestinationPath C:\dotnet
+USER ContainerAdministrator
+RUN setx /M PATH "%PATH%;C:\dotnet"
+RUN setx /M DOTNET_SKIP_FIRST_TIME_EXPERIENCE 1
+RUN setx /M DOTNET_CLI_TELEMETRY_OPTOUT 0
+USER ContainerUser
+RUN dotnet --list-sdks
+
+FROM mcr.microsoft.com/windows/servercore:ltsc2019 as dotnet
+WORKDIR /downloads
+ADD https://download.visualstudio.microsoft.com/download/pr/`
+f6387d06-5958-4935-ba28-183bb1f8ec7f/a9ccb4d10faec396135e6b967b7037da/`
+dotnet-runtime-3.1.3-win-x64.zip dotnet-runtime.zip
+RUN powershell Expand-Archive`
+ -Path dotnet-runtime.zip`
+ -DestinationPath C:\dotnet
+USER ContainerAdministrator
+RUN setx /M PATH "%PATH%;C:\dotnet"
+USER ContainerUser
+RUN dotnet --list-runtimes
+
+FROM dotnet-sdk AS build
+WORKDIR /src
+COPY "HtmlToPdf.Console" .
+RUN dotnet clean "HtmlToPdf.Console.csproj" --nologo
+RUN dotnet restore "HtmlToPdf.Console.csproj"
+RUN dotnet build "HtmlToPdf.Console.csproj" -c Release -o /app/build
+
+FROM build AS publish
+WORKDIR /src
+RUN dotnet publish "HtmlToPdf.Console.csproj" -c Release -o /app/publish
+
+FROM dotnet AS final
+WORKDIR /app
+VOLUME "C:\pdf-result"
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "HtmlToPdf.Console.dll"]
