@@ -12,18 +12,13 @@ COPY "HtmlToPdf.Console" .
 RUN dotnet clean "HtmlToPdf.Console.csproj" --nologo
 RUN dotnet restore "HtmlToPdf.Console.csproj"
 RUN dotnet build "HtmlToPdf.Console.csproj" -c Release -o /app/build
-WORKDIR /app/build
-RUN dir
 
 FROM build AS publish
 WORKDIR /src
 RUN dotnet publish "HtmlToPdf.Console.csproj" -c Release -o /app/publish
-WORKDIR /app/publish
-RUN dir
 
 FROM dotnet AS final
 WORKDIR /app
 VOLUME "/pdf-result"
 COPY --from=publish /app/publish .
-RUN dir
 ENTRYPOINT ["dotnet", "HtmlToPdf.Console.dll"]
