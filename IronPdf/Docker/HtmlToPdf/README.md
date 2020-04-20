@@ -82,4 +82,4 @@ The result should be like that:
 
 [1]: ./HtmlToPdf.Console
 [2]: ./Dockerfile.windows
-[3]: ./Dockerfile.windows
+[3]: ./Dockerfile.linux
