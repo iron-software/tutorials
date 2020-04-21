@@ -6,7 +6,7 @@ Structure:
   * [_Dockerfile.linux_][3] - the Dockerfile for running [_HtmlToPdf.Console_][1] under Linux containers
 
 ## Initialization steps
-  * Pull docker files and the sample application from GitHub Core Server:
+  * Pull docker files and the sample application:
 ```
 git clone https://github.com/iron-software/tutorials/ironpdf/docker/.git
 ```
@@ -53,7 +53,7 @@ Use the menu item 'Switch to Linux containers...' from the Docker Desktop or the
 C:\Program Files\Docker\Docker>DockerCli.exe -SwitchLinuxEngine
 ```
 
-  * Build the Docker image based on Windows Core Server:
+  * Build the Docker image based on Windows Nano Server:
 ```
 docker build --rm -t htmltopdf.linux -f Dockerfile.linux .
 ```
