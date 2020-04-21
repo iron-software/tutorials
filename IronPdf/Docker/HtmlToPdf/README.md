@@ -18,7 +18,7 @@ cd .\tutorials\IronPdf\Docker\HtmlToPdf
 
 ## Steps for the Docker with Windows container:
   * Switch the Docker to Windows containers:
-Use the menu item 'Switch to Windows containers...' from the Docker Desktop or the next command
+Use the menu item 'Switch to Windows containers...' from the [Docker Desktop][4] or the next command
 ```
 C:\Program Files\Docker\Docker>DockerCli.exe -SwitchWindowsEngine
 ```
@@ -48,7 +48,7 @@ The result should be like that:
 
 ## Steps for the Docker with Linux container:
   * Switch the Docker to Linux containers:
-Use the menu item 'Switch to Linux containers...' from the Docker Desktop or the next command
+Use the menu item 'Switch to Linux containers...' from the [Docker Desktop][4] or the next command
 ```
 C:\Program Files\Docker\Docker>DockerCli.exe -SwitchLinuxEngine
 ```
@@ -83,3 +83,4 @@ The result should be like that:
 [1]: ./HtmlToPdf.Console
 [2]: ./Dockerfile.windows
 [3]: ./Dockerfile.linux
+[4]: https://www.docker.com/products/docker-desktop
