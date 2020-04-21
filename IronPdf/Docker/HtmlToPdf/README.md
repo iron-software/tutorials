@@ -20,7 +20,7 @@ cd .\tutorials\IronPdf\Docker\HtmlToPdf
   * Switch the Docker to Windows containers:
 Use the menu item 'Switch to Windows containers...' from the [Docker Desktop][4] or the next command
 ```
-C:\Program Files\Docker\Docker>DockerCli.exe -SwitchWindowsEngine
+"C:\Program Files\Docker\Docker\DockerCli.exe" -SwitchWindowsEngine
 ```
 
   * Build the Docker image based on Windows Core Server:
@@ -50,7 +50,7 @@ The result should be like that:
   * Switch the Docker to Linux containers:
 Use the menu item 'Switch to Linux containers...' from the [Docker Desktop][4] or the next command
 ```
-C:\Program Files\Docker\Docker>DockerCli.exe -SwitchLinuxEngine
+"C:\Program Files\Docker\Docker\DockerCli.exe" -SwitchLinuxEngine
 ```
 
   * Build the Docker image based on Windows Nano Server:
