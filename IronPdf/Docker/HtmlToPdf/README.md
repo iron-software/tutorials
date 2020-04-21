@@ -6,7 +6,7 @@ Structure:
   * [_Dockerfile.linux_][3] - the Dockerfile for running [_HtmlToPdf.Console_][1] under Linux containers
 
 ## Initialization steps
-  * Pull docker files and the sample application:
+  * [Pull][5] the docker files and the sample application:
 ```
 git clone https://github.com/iron-software/tutorials.git
 ```
@@ -84,3 +84,4 @@ The result should be like that:
 [2]: ./Dockerfile.windows
 [3]: ./Dockerfile.linux
 [4]: https://www.docker.com/products/docker-desktop
+[5]: https://git-scm.com/docs/git-pull
