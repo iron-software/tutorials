@@ -8,7 +8,7 @@ Structure:
 ## Initialization steps
   * Pull docker files and the sample application:
 ```
-git clone https://github.com/iron-software/tutorials/ironpdf/docker/.git
+git clone https://github.com/iron-software/tutorials.git
 ```
 
   * Change the current folder to this tutorial context by the next command
