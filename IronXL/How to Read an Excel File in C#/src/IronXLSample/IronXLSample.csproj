@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Spreadsheets\._GDP.xlsx" />
+    <None Remove="Spreadsheets\._People.xlsx" />
+    <None Remove="Spreadsheets\._People.xlsx.sb-90c50e5d-vdgfsF" />
+    <None Remove="Spreadsheets\._PopulationByState.xlsx" />
+    <None Remove="Spreadsheets\._~%24People.xlsx" />
+    <None Remove="Spreadsheets\GDP.xlsx" />
+    <None Remove="Spreadsheets\People.xlsx" />
+    <None Remove="Spreadsheets\PopulationByState.xlsx" />
+    <None Remove="Spreadsheets\~%24People.xlsx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Spreadsheets\GDP.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Spreadsheets\People.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IronXL.Excel" Version="2019.5.2" />
+    <PackageReference Include="libphonenumber-csharp" Version="8.11.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.1" />
+    <PackageReference Include="RestClient.Net" Version="3.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Spreadsheets\PopulationByState.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
