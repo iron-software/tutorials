@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Iron.Assets.Rendering.Universal" Version="18.0.1" />
+    <PackageReference Include="IronPdf" Version="2020.3.0" />
+  </ItemGroup>
+
+
+
+</Project>

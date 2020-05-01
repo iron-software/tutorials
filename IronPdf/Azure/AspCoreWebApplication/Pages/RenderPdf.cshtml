@@ -1,0 +1,40 @@
+﻿@page "{handler?}"
+@using IronPdf
+@using IronPdf.Assets.Rendering.Universal
+@model RenderPdf
+@{
+  var vars = new Dictionary<string, object>
+  {
+    {"Environment.Is64BitOperatingSystem", Environment.Is64BitOperatingSystem},
+    {"Environment.Is64BitProcess", Environment.Is64BitProcess},
+    {"Environment.OSVersion", Environment.OSVersion},
+    {"IronPdf.License.IsLicensed", License.IsLicensed},
+    {"IronPdf.Installation.TempFolderPath", Installation.TempFolderPath},
+    {"IronPdf.Version", typeof(Installation).Assembly.GetName()?.Version?.ToString(4)},
+    {"IronPdf.IronPdfResources.AssetsName", IronPdfResources.GetAssetsName()},
+    {"IronPdf.IronPdfResources.AssetsVersion", IronPdfResources.GetAssetsVersion()},
+  };
+}
+<h1>IronPdf - Render Pdf</h1>
+
+<p>Enter a link to the web page and press the button "Render PDF" to render a PDF from the specified url.</p>
+
+<form method="get" asp-page-handler="ByUrl" target="_blank">
+  <div class="form-group">
+    <label for="url">Web page</label>
+    <input id="url" name="url" type="url" class="form-control" aria-describedby="urlHelp" placeholder="link to the web page">
+    <small id="urlHelp" class="form-text text-muted">Use the absolute link to the web page e.g. https://google.com</small>
+  </div>
+  <button type="submit" class="btn btn-primary">Render PDF</button>
+</form>
+
+<h3>Environment variables</h3>
+<p>
+  <dl>
+    @foreach (var i in vars)
+    {
+      <dt>@i.Key</dt>
+      <dd>@i.Value</dd>
+    }
+  </dl>
+</p>
