@@ -6,9 +6,9 @@ Structure:
   * [_Dockerfile.linux_][3] - the Dockerfile for running [_HtmlToPdf.Console_][1] under Linux containers
 
 ## Initialization steps
-  * Pull docker files and the sample application from GitHub Core Server:
+  * [Clone][5] the current repository or download as the [archive file][6]:
 ```
-git clone https://github.com/iron-software/tutorials/ironpdf/docker/.git
+git clone https://github.com/iron-software/tutorials.git
 ```
 
   * Change the current folder to this tutorial context by the next command
@@ -18,9 +18,9 @@ cd .\tutorials\IronPdf\Docker\HtmlToPdf
 
 ## Steps for the Docker with Windows container:
   * Switch the Docker to Windows containers:
-Use the menu item 'Switch to Windows containers...' from the Docker Desktop or the next command
+Use the menu item 'Switch to Windows containers...' from the [Docker Desktop][4] or the next command
 ```
-C:\Program Files\Docker\Docker>DockerCli.exe -SwitchWindowsEngine
+"C:\Program Files\Docker\Docker\DockerCli.exe" -SwitchWindowsEngine
 ```
 
   * Build the Docker image based on Windows Core Server:
@@ -48,12 +48,12 @@ The result should be like that:
 
 ## Steps for the Docker with Linux container:
   * Switch the Docker to Linux containers:
-Use the menu item 'Switch to Linux containers...' from the Docker Desktop or the next command
+Use the menu item 'Switch to Linux containers...' from the [Docker Desktop][4] or the next command
 ```
-C:\Program Files\Docker\Docker>DockerCli.exe -SwitchLinuxEngine
+"C:\Program Files\Docker\Docker\DockerCli.exe" -SwitchLinuxEngine
 ```
 
-  * Build the Docker image based on Windows Core Server:
+  * Build the Docker image based on Windows Nano Server:
 ```
 docker build --rm -t htmltopdf.linux -f Dockerfile.linux .
 ```
@@ -83,3 +83,6 @@ The result should be like that:
 [1]: ./HtmlToPdf.Console
 [2]: ./Dockerfile.windows
 [3]: ./Dockerfile.linux
+[4]: https://www.docker.com/products/docker-desktop
+[5]: https://git-scm.com/docs/git-clone
+[6]: https://github.com/iron-software/tutorials/archive/master.zip

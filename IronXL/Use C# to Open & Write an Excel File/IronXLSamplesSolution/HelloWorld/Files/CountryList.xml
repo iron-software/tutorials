@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<countries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+		<country code="ae" handle="united-arab-emirates" continent="asia" iso="784">United Arab Emirates</country>
+		<country code="gb" handle="united-kingdom" continent="europe" alt="England Scotland Wales GB UK Great Britain Britain Northern" boost="3" iso="826">United Kingdom</country>
+		<country code="us" handle="united-states" continent="north america" alt="US America USA" boost="2" iso="840">United States</country>
+		<country code="um" handle="united-states-minor-outlying-islands" continent="north america" iso="581">United States Minor Outlying Islands</country>
+</countries>
