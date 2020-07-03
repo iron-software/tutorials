@@ -1,0 +1,43 @@
+﻿@model TicketsApps.Models.TicketModel
+
+@{
+    Layout = null;
+}
+
+<link href="~/css/ticket.css" rel="stylesheet" />
+<div class="ticket">
+    <div class="stub">
+        <div class="top">
+            <span class="admit">VIP</span>
+            <span class="line"></span>
+            <span class="num">
+                @Model.TicketNumber
+                <span>  Ticket</span>
+            </span>
+        </div>
+        <div class="number">1</div>
+        <div class="invite">
+            Room Number
+        </div>
+    </div>
+    <div class="check">
+        <div class="big">
+            Your <br> Ticket
+        </div>
+        <div class="number">VIP</div>
+        <div class="info">
+            <section>
+                <div class="title">Date</div>
+                <div> @Model.TicketDate.ToShortDateString()</div>
+            </section>
+            <section>
+                <div class="title">Issued By</div>
+                <div>Admin</div>
+            </section>
+            <section>
+                <div class="title">Invite Number</div>
+                <div>@Model.TicketNumber</div>
+            </section>
+        </div>
+    </div>
+</div>
