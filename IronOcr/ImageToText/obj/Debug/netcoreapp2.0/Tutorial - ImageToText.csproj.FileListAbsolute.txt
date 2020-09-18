@@ -1,0 +1,42 @@
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\bin\Debug\netcoreapp2.0\img\Screenshot.png
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\bin\Debug\netcoreapp2.0\Tutorial - ImageToText.deps.json
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\bin\Debug\netcoreapp2.0\Tutorial - ImageToText.runtimeconfig.json
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\bin\Debug\netcoreapp2.0\Tutorial - ImageToText.runtimeconfig.dev.json
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\bin\Debug\netcoreapp2.0\Tutorial - ImageToText.dll
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\bin\Debug\netcoreapp2.0\Tutorial - ImageToText.pdb
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\bin\Debug\netcoreapp2.0\DynamicTesseract.dll
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\bin\Debug\netcoreapp2.0\IronBarCode.Standard.Aforge.dll
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\bin\Debug\netcoreapp2.0\IronOcr.Assets.dll
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\bin\Debug\netcoreapp2.0\IronOcr.dll
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\bin\Debug\netcoreapp2.0\IronPdf.Pdfium.dll
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\bin\Debug\netcoreapp2.0\IronSoftware.Analytics.dll
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\bin\Debug\netcoreapp2.0\IronSoftware.Deployment.dll
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\bin\Debug\netcoreapp2.0\IronSoftware.Licenses.dll
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\bin\Debug\netcoreapp2.0\IronSoftware.Logger.dll
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\bin\Debug\netcoreapp2.0\Myrmec.dll
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\bin\Debug\netcoreapp2.0\NativeLibraryLoader.dll
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\bin\Debug\netcoreapp2.0\IronOcr.pdb
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\bin\Debug\netcoreapp2.0\IronOcr.xml
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\bin\Debug\netcoreapp2.0\DynamicTesseract.pdb
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\bin\Debug\netcoreapp2.0\IronOcr.Assets.pdb
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\bin\Debug\netcoreapp2.0\IronPdf.Pdfium.pdb
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\bin\Debug\netcoreapp2.0\IronSoftware.Analytics.pdb
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\bin\Debug\netcoreapp2.0\IronSoftware.Deployment.pdb
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\bin\Debug\netcoreapp2.0\IronSoftware.Licenses.pdb
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\bin\Debug\netcoreapp2.0\IronSoftware.Logger.pdb
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\bin\Debug\netcoreapp2.0\Myrmec.pdb
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\bin\Debug\netcoreapp2.0\NativeLibraryLoader.pdb
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\bin\Debug\netcoreapp2.0\IronBarCode.Standard.Aforge.pdb
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\obj\Debug\netcoreapp2.0\Tutorial - ImageToText.csprojAssemblyReference.cache
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\obj\Debug\netcoreapp2.0\Tutorial - ImageToText.AssemblyInfoInputs.cache
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\obj\Debug\netcoreapp2.0\Tutorial - ImageToText.AssemblyInfo.cs
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\obj\Debug\netcoreapp2.0\Tutorial - ImageToText.csproj.CopyComplete
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\obj\Debug\netcoreapp2.0\Tutorial - ImageToText.dll
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\obj\Debug\netcoreapp2.0\Tutorial - ImageToText.pdb
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\bin\Debug\netcoreapp2.0\img\arabic.gif
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\bin\Debug\netcoreapp2.0\img\ComSci.Png
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\bin\Debug\netcoreapp2.0\img\Potter.LowQuality.tiff
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\bin\Debug\netcoreapp2.0\img\Potter.tiff
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\bin\Debug\netcoreapp2.0\txt\HelloWorld.txt
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\bin\Debug\netcoreapp2.0\txt\Potter.txt
+C:\Users\jacob\Documents\GitHub\IronOcr.Rebuild\tutorials\ImageToText\bin\Debug\netcoreapp2.0\Arabic.ocrdata

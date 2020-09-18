@@ -1,0 +1,1087 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\jacob\\Documents\\GitHub\\IronOcr.Rebuild\\tutorials\\ImageToText\\ImageToText.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\jacob\\Documents\\GitHub\\IronBarCode\\IronBarCode.Standard.Aforge\\IronBarCode.Standard.Aforge.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jacob\\Documents\\GitHub\\IronBarCode\\IronBarCode.Standard.Aforge\\IronBarCode.Standard.Aforge.csproj",
+        "projectName": "IronBarCode.Standard.Aforge",
+        "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronBarCode\\IronBarCode.Standard.Aforge\\IronBarCode.Standard.Aforge.csproj",
+        "packagesPath": "C:\\Users\\jacob\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronBarCode\\IronBarCode.Standard.Aforge\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jacob\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.License\\babelrepo": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jacob\\Documents\\GitHub\\IronOcr.Rebuild\\src\\Interop\\DynamicTesseract\\DynamicTesseract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jacob\\Documents\\GitHub\\IronOcr.Rebuild\\src\\Interop\\DynamicTesseract\\DynamicTesseract.csproj",
+        "projectName": "DynamicTesseract",
+        "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronOcr.Rebuild\\src\\Interop\\DynamicTesseract\\DynamicTesseract.csproj",
+        "packagesPath": "C:\\Users\\jacob\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronOcr.Rebuild\\src\\Interop\\DynamicTesseract\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\jacob\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net40",
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.License\\babelrepo": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net40": {
+            "projectReferences": {
+              "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.Interop\\NativeLibraryLoader\\NativeLibraryLoader\\NativeLibraryLoader.csproj": {
+                "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.Interop\\NativeLibraryLoader\\NativeLibraryLoader\\NativeLibraryLoader.csproj"
+              }
+            }
+          },
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.Interop\\NativeLibraryLoader\\NativeLibraryLoader\\NativeLibraryLoader.csproj": {
+                "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.Interop\\NativeLibraryLoader\\NativeLibraryLoader\\NativeLibraryLoader.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net40": {
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jacob\\Documents\\GitHub\\IronOcr.Rebuild\\src\\IronOcr.Assets\\IronOcr.Assets.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jacob\\Documents\\GitHub\\IronOcr.Rebuild\\src\\IronOcr.Assets\\IronOcr.Assets.csproj",
+        "projectName": "IronOcr.Assets",
+        "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronOcr.Rebuild\\src\\IronOcr.Assets\\IronOcr.Assets.csproj",
+        "packagesPath": "C:\\Users\\jacob\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronOcr.Rebuild\\src\\IronOcr.Assets\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\jacob\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net40",
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.License\\babelrepo": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net40": {
+            "projectReferences": {
+              "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.Deployment\\IronSoftware.Deployment.csproj": {
+                "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.Deployment\\IronSoftware.Deployment.csproj"
+              }
+            }
+          },
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.Deployment\\IronSoftware.Deployment.csproj": {
+                "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.Deployment\\IronSoftware.Deployment.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net40": {
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jacob\\Documents\\GitHub\\IronOcr.Rebuild\\src\\IronOcr\\IronOcr.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jacob\\Documents\\GitHub\\IronOcr.Rebuild\\src\\IronOcr\\IronOcr.csproj",
+        "projectName": "IronOcr",
+        "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronOcr.Rebuild\\src\\IronOcr\\IronOcr.csproj",
+        "packagesPath": "C:\\Users\\jacob\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronOcr.Rebuild\\src\\IronOcr\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\jacob\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net40",
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.License\\babelrepo": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net40": {
+            "projectReferences": {
+              "C:\\Users\\jacob\\Documents\\GitHub\\IronOcr.Rebuild\\src\\Interop\\DynamicTesseract\\DynamicTesseract.csproj": {
+                "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronOcr.Rebuild\\src\\Interop\\DynamicTesseract\\DynamicTesseract.csproj"
+              },
+              "C:\\Users\\jacob\\Documents\\GitHub\\IronOcr.Rebuild\\src\\IronOcr.Assets\\IronOcr.Assets.csproj": {
+                "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronOcr.Rebuild\\src\\IronOcr.Assets\\IronOcr.Assets.csproj"
+              },
+              "C:\\Users\\jacob\\Documents\\GitHub\\IronOcr.Rebuild\\src\\Myrmec\\Myrmec.csproj": {
+                "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronOcr.Rebuild\\src\\Myrmec\\Myrmec.csproj"
+              },
+              "C:\\Users\\jacob\\Documents\\GitHub\\IronPdf\\src\\Dependencies\\IronPdf.Pdfium\\IronPdf.Pdfium.csproj": {
+                "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronPdf\\src\\Dependencies\\IronPdf.Pdfium\\IronPdf.Pdfium.csproj"
+              },
+              "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.Analytics\\IronSoftware.Analytics.csproj": {
+                "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.Analytics\\IronSoftware.Analytics.csproj"
+              },
+              "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.License\\IronSoftware.Licenses.csproj": {
+                "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.License\\IronSoftware.Licenses.csproj"
+              },
+              "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.Logger\\IronSoftware.Logger.csproj": {
+                "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.Logger\\IronSoftware.Logger.csproj"
+              }
+            }
+          },
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\jacob\\Documents\\GitHub\\IronBarCode\\IronBarCode.Standard.Aforge\\IronBarCode.Standard.Aforge.csproj": {
+                "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronBarCode\\IronBarCode.Standard.Aforge\\IronBarCode.Standard.Aforge.csproj"
+              },
+              "C:\\Users\\jacob\\Documents\\GitHub\\IronOcr.Rebuild\\src\\Interop\\DynamicTesseract\\DynamicTesseract.csproj": {
+                "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronOcr.Rebuild\\src\\Interop\\DynamicTesseract\\DynamicTesseract.csproj"
+              },
+              "C:\\Users\\jacob\\Documents\\GitHub\\IronOcr.Rebuild\\src\\IronOcr.Assets\\IronOcr.Assets.csproj": {
+                "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronOcr.Rebuild\\src\\IronOcr.Assets\\IronOcr.Assets.csproj"
+              },
+              "C:\\Users\\jacob\\Documents\\GitHub\\IronOcr.Rebuild\\src\\Myrmec\\Myrmec.csproj": {
+                "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronOcr.Rebuild\\src\\Myrmec\\Myrmec.csproj"
+              },
+              "C:\\Users\\jacob\\Documents\\GitHub\\IronPdf\\src\\Dependencies\\IronPdf.Pdfium\\IronPdf.Pdfium.csproj": {
+                "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronPdf\\src\\Dependencies\\IronPdf.Pdfium\\IronPdf.Pdfium.csproj"
+              },
+              "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.Analytics\\IronSoftware.Analytics.csproj": {
+                "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.Analytics\\IronSoftware.Analytics.csproj"
+              },
+              "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.License\\IronSoftware.Licenses.csproj": {
+                "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.License\\IronSoftware.Licenses.csproj"
+              },
+              "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.Logger\\IronSoftware.Logger.csproj": {
+                "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.Logger\\IronSoftware.Logger.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net40": {
+          "dependencies": {
+            "AForge": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "AForge.Imaging": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "AForge.Math": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Magick.NET-Q8-AnyCPU": {
+              "target": "Package",
+              "version": "[7.20.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "ZXing.Net": {
+              "target": "Package",
+              "version": "[0.16.5, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "dependencies": {
+            "Magick.NET-Q8-AnyCPU": {
+              "target": "Package",
+              "version": "[7.20.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Runtime.InteropServices": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "ZXing.Net": {
+              "target": "Package",
+              "version": "[0.16.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jacob\\Documents\\GitHub\\IronOcr.Rebuild\\src\\Myrmec\\Myrmec.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jacob\\Documents\\GitHub\\IronOcr.Rebuild\\src\\Myrmec\\Myrmec.csproj",
+        "projectName": "Myrmec",
+        "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronOcr.Rebuild\\src\\Myrmec\\Myrmec.csproj",
+        "packagesPath": "C:\\Users\\jacob\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronOcr.Rebuild\\src\\Myrmec\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\jacob\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net40",
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.License\\babelrepo": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net40": {
+            "projectReferences": {}
+          },
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net40": {
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jacob\\Documents\\GitHub\\IronOcr.Rebuild\\tutorials\\ImageToText\\ImageToText.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jacob\\Documents\\GitHub\\IronOcr.Rebuild\\tutorials\\ImageToText\\ImageToText.csproj",
+        "projectName": "ImageToText",
+        "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronOcr.Rebuild\\tutorials\\ImageToText\\ImageToText.csproj",
+        "packagesPath": "C:\\Users\\jacob\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronOcr.Rebuild\\tutorials\\ImageToText\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jacob\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.License\\babelrepo": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "C:\\Users\\jacob\\Documents\\GitHub\\IronOcr.Rebuild\\src\\IronOcr\\IronOcr.csproj": {
+                "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronOcr.Rebuild\\src\\IronOcr\\IronOcr.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jacob\\Documents\\GitHub\\IronPdf\\src\\Dependencies\\IronPdf.Pdfium\\IronPdf.Pdfium.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jacob\\Documents\\GitHub\\IronPdf\\src\\Dependencies\\IronPdf.Pdfium\\IronPdf.Pdfium.csproj",
+        "projectName": "IronPdf.Pdfium",
+        "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronPdf\\src\\Dependencies\\IronPdf.Pdfium\\IronPdf.Pdfium.csproj",
+        "packagesPath": "C:\\Users\\jacob\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronPdf\\src\\Dependencies\\IronPdf.Pdfium\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\jacob\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net40",
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.License\\babelrepo": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net40": {
+            "projectReferences": {
+              "C:\\Users\\jacob\\Documents\\GitHub\\IronPdf\\src\\Dependencies\\IronSoftware.CommonLibraries\\IronSoftware.Interop\\NativeLibraryLoader\\NativeLibraryLoader\\NativeLibraryLoader.csproj": {
+                "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronPdf\\src\\Dependencies\\IronSoftware.CommonLibraries\\IronSoftware.Interop\\NativeLibraryLoader\\NativeLibraryLoader\\NativeLibraryLoader.csproj"
+              }
+            }
+          },
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\jacob\\Documents\\GitHub\\IronPdf\\src\\Dependencies\\IronSoftware.CommonLibraries\\IronSoftware.Interop\\NativeLibraryLoader\\NativeLibraryLoader\\NativeLibraryLoader.csproj": {
+                "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronPdf\\src\\Dependencies\\IronSoftware.CommonLibraries\\IronSoftware.Interop\\NativeLibraryLoader\\NativeLibraryLoader\\NativeLibraryLoader.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net40": {
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jacob\\Documents\\GitHub\\IronPdf\\src\\Dependencies\\IronSoftware.CommonLibraries\\IronSoftware.Interop\\NativeLibraryLoader\\NativeLibraryLoader\\NativeLibraryLoader.csproj": {
+      "version": "1.0.12",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jacob\\Documents\\GitHub\\IronPdf\\src\\Dependencies\\IronSoftware.CommonLibraries\\IronSoftware.Interop\\NativeLibraryLoader\\NativeLibraryLoader\\NativeLibraryLoader.csproj",
+        "projectName": "NativeLibraryLoader",
+        "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronPdf\\src\\Dependencies\\IronSoftware.CommonLibraries\\IronSoftware.Interop\\NativeLibraryLoader\\NativeLibraryLoader\\NativeLibraryLoader.csproj",
+        "packagesPath": "C:\\Users\\jacob\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronPdf\\src\\Dependencies\\IronSoftware.CommonLibraries\\IronSoftware.Interop\\NativeLibraryLoader\\NativeLibraryLoader\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\jacob\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net40",
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.License\\babelrepo": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net40": {
+            "projectReferences": {}
+          },
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net40": {
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.DependencyModel": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.Analytics\\IronSoftware.Analytics.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.Analytics\\IronSoftware.Analytics.csproj",
+        "projectName": "IronSoftware.Analytics",
+        "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.Analytics\\IronSoftware.Analytics.csproj",
+        "packagesPath": "C:\\Users\\jacob\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.Analytics\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\jacob\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net40",
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.License\\babelrepo": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net40": {
+            "projectReferences": {
+              "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.Logger\\IronSoftware.Logger.csproj": {
+                "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.Logger\\IronSoftware.Logger.csproj"
+              }
+            }
+          },
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.Logger\\IronSoftware.Logger.csproj": {
+                "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.Logger\\IronSoftware.Logger.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net40": {
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.Deployment\\IronSoftware.Deployment.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.Deployment\\IronSoftware.Deployment.csproj",
+        "projectName": "IronSoftware.Deployment",
+        "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.Deployment\\IronSoftware.Deployment.csproj",
+        "packagesPath": "C:\\Users\\jacob\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.Deployment\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\jacob\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net40",
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.License\\babelrepo": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net40": {
+            "projectReferences": {}
+          },
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net40": {
+          "dependencies": {
+            "DotNetZip": {
+              "target": "Package",
+              "version": "[1.13.8, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.Interop\\NativeLibraryLoader\\NativeLibraryLoader\\NativeLibraryLoader.csproj": {
+      "version": "1.0.12",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.Interop\\NativeLibraryLoader\\NativeLibraryLoader\\NativeLibraryLoader.csproj",
+        "projectName": "NativeLibraryLoader",
+        "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.Interop\\NativeLibraryLoader\\NativeLibraryLoader\\NativeLibraryLoader.csproj",
+        "packagesPath": "C:\\Users\\jacob\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.Interop\\NativeLibraryLoader\\NativeLibraryLoader\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\jacob\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net40",
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.License\\babelrepo": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net40": {
+            "projectReferences": {}
+          },
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net40": {
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.DependencyModel": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.License\\IronSoftware.Licenses.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.License\\IronSoftware.Licenses.csproj",
+        "projectName": "IronSoftware.Licenses",
+        "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.License\\IronSoftware.Licenses.csproj",
+        "packagesPath": "C:\\Users\\jacob\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.License\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\jacob\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net40",
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.License\\babelrepo": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net40": {
+            "projectReferences": {}
+          },
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net40": {
+          "dependencies": {
+            "Babel.Licensing": {
+              "target": "Package",
+              "version": "[2.8.4, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "dependencies": {
+            "Babel.Licensing": {
+              "target": "Package",
+              "version": "[2.8.4, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.Logger\\IronSoftware.Logger.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.Logger\\IronSoftware.Logger.csproj",
+        "projectName": "IronSoftware.Logger",
+        "projectPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.Logger\\IronSoftware.Logger.csproj",
+        "packagesPath": "C:\\Users\\jacob\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.Logger\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\jacob\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net40",
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\jacob\\Documents\\GitHub\\IronSoftware.CommonLibraries\\IronSoftware.License\\babelrepo": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net40": {
+            "projectReferences": {}
+          },
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net40": {
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
