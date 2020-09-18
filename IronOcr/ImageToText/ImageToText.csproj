@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< Updated upstream
     <ProjectReference Include="..\..\src\IronOcr\IronOcr.csproj" />
   </ItemGroup>
 
@@ -13,6 +14,14 @@
     <None Update="Arabic.ocrdata">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+=======
+    <PackageReference Include="IronOcr" Version="2020.9.0.1" />
+    <PackageReference Include="IronOcr.Assets" Version="5.0.1" />
+    <PackageReference Include="IronOcr.Languages.Arabic" Version="2020.6.0-prerelease" />
+  </ItemGroup>
+
+  <ItemGroup>
+>>>>>>> Stashed changes
     <None Update="img\arabic.gif">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
